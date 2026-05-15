@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test:e2e": "playwright test Palindrome.e2e.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
     "vitest": "^4.1.6"
   }
 }
